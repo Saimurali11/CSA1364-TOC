@@ -1,0 +1,141 @@
+Automaton Simulator, v1.0
+turing {
+	alphabet {abcd*_}
+	state {
+		initial {yes}
+		coord {321 188}
+	}
+	state {
+		coord {562 179}
+	}
+	state {
+		coord {815 181}
+	}
+	state {
+		coord {328 415}
+	}
+	state {
+		final {yes}
+		coord {583 414}
+	}
+	edge 0 1 {
+		transits {a}
+		offset {0.5235987755982988}
+		direction {R}
+		output {c}
+	}
+	edge 1 1 {
+		transits {a}
+		offset {1.5874614505088374}
+		direction {R}
+		output {a}
+	}
+	edge 1 2 {
+		transits {b}
+		offset {0.5235987755982988}
+		direction {L}
+		output {d}
+	}
+	edge 2 2 {
+		transits {a}
+		offset {1.4618543698050308}
+		direction {L}
+		output {a}
+	}
+	edge 2 0 {
+		transits {c}
+		offset {0.5235987755982988}
+		direction {R}
+		output {c}
+	}
+	edge 1 1 {
+		transits {d}
+		offset {-2.4638843610251655}
+		direction {R}
+		output {d}
+	}
+	edge 2 2 {
+		transits {d}
+		offset {-0.3642780890164264}
+		direction {L}
+		output {d}
+	}
+	edge 0 3 {
+		transits {d}
+		offset {0.5235987755982988}
+		direction {R}
+		output {d}
+	}
+	edge 3 3 {
+		transits {d}
+		offset {2.356194490192345}
+		direction {R}
+		output {d}
+	}
+	edge 3 4 {
+		transits {_}
+		offset {0.5235987755982988}
+		direction {R}
+		output {_}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {988 62}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {733 116}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {528 122}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {651 295}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {594 216}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {593 182}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {621 211}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {976 291}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {701 119}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {830 117}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {691 136}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {697 133}
+	}
+}
